@@ -4,11 +4,11 @@ using namespace std;
 int main() {
     double c1, c2, c3, promedio;
 
-    cout << "Ingrese la primera calificacion:"<< endl;
+    cout << "Ingrese una primera calificacion:"<< endl;
     cin >> c1;
-    cout << "Ingrese la segunda calificacion:"<< endl;
+    cout << "Ingrese una segunda calificacion:"<< endl;
     cin >> c2;
-    cout << "Ingrese la tercera calificacion:"<< endl;
+    cout << "Ingrese una tercera calificacion:"<< endl;
     cin >> c3;
 
     promedio = (c1 + c2 + c3) / 3;
