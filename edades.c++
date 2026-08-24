@@ -1,27 +1,21 @@
 #include <iostream>
-using namespace std;  
 
-int main(){
+using namespace std;
 
-int edades[5];
+int main() {
+    //arreglo 
+    int edades[5];
 
-    cout << "Edades"<< endl;
+    cout << "=== Registro de Edades ===" << endl;
+    for (int i = 0; i < 5; i++) {
+        cout << "Ingresa la edad de la persona " << (i + 1) << ": ";
+        cin >> edades[i];
+    }
 
-for (int i = 0; i < 5; i++) {
+    cout << "\nLas edades registradas son:" << endl;
+    for (int i = 0; i < 5; i++) {
+        cout << "Persona " << (i + 1) << ": " << edades[i] << " años" << endl;
+    }
 
-
-    cout << "Ingrese una primera edad:"<< i + 1<<'':'';
-    cin >> c1;
-    cout << "Ingrese una segunda edad:"<<  i + 1<<'':'';
-    cin >> c2;
-    cout << "Ingrese una tercera edad:"<<  i + 1<<'':'';
-    cin >> c3;
-    cout << "Ingrese una cuarta edad:"<<  i + 1<<'':'';
-    cin >> c4;
-    cout << "Ingrese una quinta edad:"<<  i + 1<<'':'';
-    cin >> c35;
-
-    cout << edades[i] << endl; 
-} 
     return 0;
 }
